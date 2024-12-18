@@ -9,7 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  http: any    # For making API requests
+  provider: any  # For state management
+  shared_preferences: any  # For storing user token locally
+  upgrade: ^0.0.8
+  clean: ^0.1.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
